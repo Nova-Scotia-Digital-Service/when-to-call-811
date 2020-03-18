@@ -1,0 +1,4 @@
+# S2I setup
+# QB
+TZ=Canada/Atlantic
+DOTNET_STARTUP_PROJECT=OnlineAssessment

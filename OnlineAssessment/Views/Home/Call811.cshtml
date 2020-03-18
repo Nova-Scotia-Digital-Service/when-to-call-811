@@ -1,0 +1,31 @@
+﻿@using OnlineAssessment.Resources
+
+@{
+    ViewData["Title"] = ViewBag.Title;
+}
+@section featured
+{
+    <section class="featured" id="call811">
+        <div class="row m-t-md">
+            <div class="col-md-8">
+                <h1>@StringResource.Call811_PageTitle</h1>
+            </div>
+        </div>
+
+        <div class="row m-t-md mb-5">
+            <div class="col-md-8">
+                <p class="mb-2">@StringResource.Call811_P1</p>
+                <p class="mb-2">@StringResource.Call811_P2 </p>
+                <p class="mb-2">@StringResource.Call811_P3</p>
+                <p class="mb-2">@StringResource.Call811_P4</p>
+                <p class="mb-2">@StringResource.Call811_P5</p>
+                <p class="mb-2">@StringResource.Info811_1 <a href="@StringResource.CanadInfo_href">@StringResource.CanadaInfoLink</a> @StringResource.Txt_Or <a href="@StringResource.ProvinceInfo_href">@StringResource.ProvinceInfo_Link</a>@StringResource.Info811_2 <a href="tel:1-833-784-4397" class="linkStyle">1-833-784-4397</a>. </p>
+            </div>
+        </div>
+        <div class="row m-t-md m-b-md">
+            <div class="col-md-8">
+                <a id="call811BackToStart" class="underlineLink" href="@Url.Action("Index", "Home")">@StringResource.Link_BackToStart</a>
+            </div>
+        </div>
+    </section>
+}

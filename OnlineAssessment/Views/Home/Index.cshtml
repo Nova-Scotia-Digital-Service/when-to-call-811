@@ -1,0 +1,27 @@
+﻿@using OnlineAssessment.Resources
+
+@{
+    ViewData["Title"] = StringResource.Index_PageTitle;
+}
+@section featured
+{
+<section class="featured" id="index">
+    <div class="row m-t-md">
+        <div class="col-md-8">
+            <h1>@StringResource.Index_PageTitle</h1>
+        </div>
+    </div>
+
+    <div class="row m-b-md m-t-md">
+        <div class="col-md-8">
+            <h2 class="mb-4">@StringResource.Index_H2</h2>
+            <p class="mb-2">@StringResource.Index_P1 </p>
+            <p class="mb-2">@StringResource.Index_P2</p>
+            <p>@StringResource.Index_P3</p>
+            <div class="mt-lg-5">
+                <a id="startNow" class="btn btn-success btn-lg mr-5" href="@Url.Action("TravelInfo", "Home")">@StringResource.Btn_StartNow</a>
+            </div>
+        </div>
+    </div>
+</section>
+}

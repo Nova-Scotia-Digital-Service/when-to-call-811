@@ -1,0 +1,24 @@
+﻿@using OnlineAssessment.Utils
+@using OnlineAssessment.Resources
+
+
+<nav id="navigation" role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+               @*your banner goes here*@
+            </div>
+            <div class="col-xs-6" id="block-languageswitcher">
+                <ul class="links">
+                    <li id="english" class="en @Html.IsSelected(actions: ViewContext.RouteData.Values["action"] as string, controllers: ViewContext.RouteData.Values["controller"] as string, hreflang: "en" as string)" hreflang="en">
+                        @Html.ActionLink(StringResource.Lang_English, ViewContext.RouteData.Values["action"] as string, ViewContext.RouteData.Values["controller"] as string, new { @lang = "en" }, new { @class = "langStyle" })
+                    </li>
+                    <li hreflang="fr" id="french" class="fr @Html.IsSelected(actions: ViewContext.RouteData.Values["action"] as string, controllers: ViewContext.RouteData.Values["controller"] as string, hreflang: "fr" as string)">
+                        @Html.ActionLink(StringResource.Lang_French, ViewContext.RouteData.Values["action"] as string, ViewContext.RouteData.Values["controller"] as string, new { @lang = "fr" }, new { @class = "langStyle" })
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+

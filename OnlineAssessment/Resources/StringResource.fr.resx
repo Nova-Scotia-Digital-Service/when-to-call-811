@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Btn_No" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="Btn_StartNow" xml:space="preserve">
+    <value>Débuter</value>
+  </data>
+  <data name="Btn_Yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="Call811_P1" xml:space="preserve">
+    <value>Vous devez communiquer avec le 811 pour une évaluation par un professionnel de la santé.</value>
+  </data>
+  <data name="Call811_P2" xml:space="preserve">
+    <value>Vous devez également vous isoler à la maison pendant 14 jours et continuer de surveiller votre état de santé.</value>
+  </data>
+  <data name="Call811_P3" xml:space="preserve">
+    <value>Si vous avez récemment voyagé, l'auto-isolement de 14 jours débute le jour de votre retour au Canada.</value>
+  </data>
+  <data name="Call811_P4" xml:space="preserve">
+    <value>Si vous avez eu un contact étroit avec une personne ayant un cas confirmé de COVID-19 ou une personne qui a récemment voyagé à l'extérieur du Canada et qui présente des symptômes, l'auto-isolement de 14 jours débute le jour de votre contact avec cette personne.</value>
+  </data>
+  <data name="Call811_P5" xml:space="preserve">
+    <value>Nous recevons un nombre d'appels plus élevé que d'habitude. Il nous faudra donc plus de temps pour répondre à votre appel. Nous faisons tout notre possible pour répondre à tous les appels le plus rapidement possible. Merci de votre patience.</value>
+  </data>
+  <data name="Call811_PageTitle" xml:space="preserve">
+    <value>Vous devez communiquer avec le 811</value>
+  </data>
+  <data name="CanadaInfoLink" xml:space="preserve">
+    <value>canada.ca/le-coronavirus</value>
+  </data>
+  <data name="CanadInfo_href" xml:space="preserve">
+    <value>https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19.html</value>
+  </data>
+  <data name="ContactWithConfirmedCase_H2" xml:space="preserve">
+    <value>Avez-vous eu un contact étroit (moins de 2 mètres) avec une personne ayant un cas confirmé de COVID-19?</value>
+  </data>
+  <data name="ContactWithConfirmedCase_PageTitle" xml:space="preserve">
+    <value>Contact avec une personne ayant un cas confirmé de COVID-19</value>
+  </data>
+  <data name="ContactWithSymptoms_H2" xml:space="preserve">
+    <value>Avez-vous eu un contact étroit (moins de 2 mètres) avec une personne qui est revenue d'un autre pays au cours des 14 derniers jours et qui a une fièvre de plus de 38 degrés Celsius, une nouvelle toux ou une toux qui s'aggrave?</value>
+  </data>
+  <data name="ContactWithSymptoms_PageTitle" xml:space="preserve">
+    <value>Contact avec une personne qui présente des symptômes</value>
+  </data>
+  <data name="Index_H2" xml:space="preserve">
+    <value>Utilisez cet outil de dépistage pour déterminer si vous devez communiquer avec le 811 au sujet de la COVID-19.</value>
+  </data>
+  <data name="Index_P1" xml:space="preserve">
+    <value>Seules certaines personnes doivent nous appeler au sujet de la COVID-19. N'appelez pas si vous n'avez pas besoin de le faire.</value>
+  </data>
+  <data name="Index_P2" xml:space="preserve">
+    <value>Répondez aux questions sur chaque page de cet outil pour déterminer si vous devez nous appeler.</value>
+  </data>
+  <data name="Index_P3" xml:space="preserve">
+    <value>Si vous avez des inquiétudes au sujet d'une autre question de santé, vous pouvez toujours communiquer avec un professionnel de la santé du 811. Nous recevons un nombre d'appels plus élevé que d'habitude; il nous faudra donc plus de temps pour répondre à votre appel. Nous faisons tout notre possible pour répondre à tous les appels le plus rapidement possible. Merci de votre patience.</value>
+  </data>
+  <data name="Index_PageTitle" xml:space="preserve">
+    <value>Quand communiquer avec le 811 au sujet de la COVID-19</value>
+  </data>
+  <data name="Info811_1" xml:space="preserve">
+    <value>Pour des renseignements supplémentaires sur la maladie COVID-19 et sur l'auto-isolement, consultez le</value>
+  </data>
+  <data name="Info811_2" xml:space="preserve">
+    <value>. Vous pouvez également composer le numéro sans frais de la ligne d'information du gouvernement du Canada au</value>
+  </data>
+  <data name="Lang_English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Lang_French" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="Link_BackToStart" xml:space="preserve">
+    <value>Retour au début</value>
+  </data>
+  <data name="NoCallRightNow_H2" xml:space="preserve">
+    <value>Vous devez toutefois vous isoler à la maison.</value>
+  </data>
+  <data name="NoCallRightNow_P1" xml:space="preserve">
+    <value>Le ministère de la Santé et du Mieux-être exige que vous vous isoliez à la maison pendant 14 jours.</value>
+  </data>
+  <data name="NoCallRightNow_P2" xml:space="preserve">
+    <value>Si vous avez récemment voyagé, l'auto-isolement de 14 jours débute le jour de votre retour au Canada.</value>
+  </data>
+  <data name="NoCallRightNow_P3" xml:space="preserve">
+    <value>Si vous avez eu un contact étroit avec une personne ayant un cas confirmé de COVID-19 ou une personne qui a récemment voyagé à l'extérieur du Canada et qui présente des symptômes, l'auto-isolement de 14 jours débute le jour de votre contact avec cette personne.</value>
+  </data>
+  <data name="NoCallRightNow_P4" xml:space="preserve">
+    <value>Vous devez continuer de surveiller votre état de santé. Si quelque chose change, vous pouvez utiliser cet outil pour réévaluer la situation.</value>
+  </data>
+  <data name="NoCallRightNow_P5" xml:space="preserve">
+    <value>Si une fièvre de plus de 38 degrés Celsius ou une nouvelle toux (ou une toux plus grave) se développe dans les 14 prochains jours, communiquez avec le 811 pour une évaluation par un professionnel de la santé.</value>
+  </data>
+  <data name="NoCallRightNow_PageTitle" xml:space="preserve">
+    <value>Vous n'avez pas besoin de communiquer avec le 811 pour l'instant</value>
+  </data>
+  <data name="NoCallTo811_P1" xml:space="preserve">
+    <value>Selon les renseignements que vous avez fournis, il n'est pas nécessaire pour vous de communiquer avec le 811 pour une évaluation à l'heure actuelle.</value>
+  </data>
+  <data name="NoCallTo811_P2" xml:space="preserve">
+    <value>Si quelque chose change, vous pouvez utiliser cet outil pour réévaluer la situation.</value>
+  </data>
+  <data name="NoCallTo811_P3_1" xml:space="preserve">
+    <value>Pour des renseignements supplémentaires sur la maladie COVID-19, consultez le</value>
+  </data>
+  <data name="NoCallTo811_P3_2" xml:space="preserve">
+    <value>. Vous pouvez également composer le numéro sans frais de la ligne d'information du gouvernement du Canada au</value>
+  </data>
+  <data name="NoCallTo811_P4" xml:space="preserve">
+    <value>Si vous avez des inquiétudes au sujet d'une autre question de santé, vous pouvez toujours communiquer avec un professionnel de la santé du 811. Nous recevons un nombre d'appels plus élevé que d'habitude; il nous faudra donc plus de temps pour répondre à votre appel.</value>
+  </data>
+  <data name="NoCallTo811_PageTitle" xml:space="preserve">
+    <value>Vous n'avez pas besoin de communiquer avec le 811</value>
+  </data>
+  <data name="ProvinceInfo_href" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="ProvinceInfo_Link" xml:space="preserve">
+    <value>province coronavirus</value>
+  </data>
+  <data name="SymptomsWithoutTravel_H2" xml:space="preserve">
+    <value>Avez-vous une fièvre de plus de 38 degrés Celsius, une nouvelle toux ou une toux qui s'aggrave?</value>
+  </data>
+  <data name="SymptomsWithTravel_H2" xml:space="preserve">
+    <value>Avez-vous une fièvre de plus de 38 degrés Celsius, une nouvelle toux ou une toux qui s'aggrave?</value>
+  </data>
+  <data name="Symptoms_PageTitle" xml:space="preserve">
+    <value>Renseignements sur vos symptômes</value>
+  </data>
+  <data name="TravelInfo_H2" xml:space="preserve">
+    <value>Êtes-vous de retour au Canada après un séjour dans un autre pays depuis les 14 derniers jours?</value>
+  </data>
+  <data name="TravelInfo_PageTitle" xml:space="preserve">
+    <value>Renseignements sur votre voyage récent</value>
+  </data>
+  <data name="Txt_Or" xml:space="preserve">
+    <value>ou le</value>
+  </data>
+  <data name="MetaLang" xml:space="preserve">
+    <value>fr</value>
+  </data>
+  <data name="MetaScheme" xml:space="preserve">
+    <value>Quand communiquer avec le 811; quand communiquer avec le 811 au sujet du COVID-19</value>
+  </data>
+  <data name="Terms_href" xml:space="preserve">
+    <value>https://beta.novascotia.ca/fr/conditions-dutilisation</value>
+  </data>
+  <data name="Twitter_href" xml:space="preserve">
+    <value>https://twitter.com/share?url=https://when-to-call-about-covid19.novascotia.ca/fr?utm_source=811Checker_fr&amp;utm_medium=twitter&amp;utm_campaign=SharingLinks</value>
+  </data>
+</root>

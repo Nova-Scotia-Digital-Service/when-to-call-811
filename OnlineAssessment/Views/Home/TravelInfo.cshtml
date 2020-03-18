@@ -1,0 +1,27 @@
+﻿@using OnlineAssessment.Resources
+
+@{
+    ViewData["Title"] = ViewBag.Title;
+}
+
+@section featured
+{
+    <section class="featured" id="travelInfo">
+        <div class="row m-t-md m-b-md">
+            <div class="col-md-8">
+                <h1>@StringResource.TravelInfo_PageTitle</h1>
+            </div>
+        </div>
+        <div class="row m-b-md m-t-md">
+            <div class="col-md-8">
+                <h2>@StringResource.TravelInfo_H2</h2>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <a id="travelYes" class="btn btn-secondary btn-lg centered mr-4" href="@Url.Action("SymptomsWithTravel", "Home")">@StringResource.Btn_Yes</a>
+                <a id="travelNo" class="btn btn-secondary btn-lg centered ml-4" href="@Url.Action("ContactWithConfirmedCase", "Home")">@StringResource.Btn_No</a>
+            </div>
+        </div>
+    </section>
+}

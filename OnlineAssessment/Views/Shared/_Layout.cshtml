@@ -1,0 +1,59 @@
+﻿@using OnlineAssessment.Resources
+
+<!DOCTYPE html>
+<html lang="@StringResource.MetaLang">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
+    <meta name="title" content="Your title" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="dcterms.title" content="" />
+    <meta name="description" content="" />
+    <meta name="dcterms.issued" title="W3CDTF" content="" />
+    <meta name="dcterms.subject" title="scheme" content="e" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <title>@ViewData["Title"]</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-grid.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>
+    <partial name="_Header" /> <!-- Header -->
+    <!-- main -->
+    <main class="main published" id="main">
+        <div class="container">
+            @RenderSection("featured", required: false)
+        </div>
+    </main>
+    <!-- End of main -->
+
+    <partial name="_Footer" /> <!-- Footer -->
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="~/js/site.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
